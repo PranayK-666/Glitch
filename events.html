@@ -1,24 +1,72 @@
 <!DOCTYPE html>
 <html>
 <head>
+   
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"> 
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
-   <style>
-       .jumbotron {
-           background: url("img/logo.jpeg") center center / cover no-repeat;
-       }
-   </style>
-   <title>Glitch '20</title>
+   
+
+   <!-- events-style CSS -->
+   <link rel="stylesheet" href="events-style.css">
+   
+   <title>Glitch '20 - Events</title>
    <link rel = "icon" href ="img/logo.jpeg" type = "image/x-icon"> 
+
 </head>
 
 <body>
     
-    <nav class="navbar bg-dark navbar-dark">
-        <div class="container">
-            <a href="#" class="navbar-brand">Glitch '20</a>
+    <!-- ========== NavBar Start ========== -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">
+            <img src="img/logo.jpeg" class="rounded-circle" width="30" height="30" alt="">
+          </a>
+        <a class="navbar-brand" href="#">Glitch '20</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Events
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Compiler Error</a>
+                <a class="dropdown-item" href="#">Circuit Designing</a>
+                <a class="dropdown-item" href="#">IOT Times</a>
+                <a class="dropdown-item" href="#">It's Lensational</a>
+                <a class="dropdown-item" href="#">Meme Challenge</a>
+                <a class="dropdown-item" href="#">Photo Edito</a>
+                <a class="dropdown-item" href="#">Kuch toh Corona</a>
+                <a class="dropdown-item" href="#">T-Pose</a>
+                <!-- <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a> -->
+              </div>
+            </li>
+            
+          </ul>
+          
+        <a href="https://www.facebook.com/113482887002390/posts/113839643633381/?sfnsn=wiwspmo&extid=jUWd4hzpE3E2i01E" target="_blank">
+            <i class="fab fa-facebook"></i>
+        </a>
+            <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+     
         </div>
-    </nav>
+      </nav>
+
+    <!-- ========== NavBar End ========== -->
+
+
+
+    <!-- ========== Jumbotron Start ========== -->
 
     <section class="jumbotron text-center">
         <h1 class="display-3"> </h1>
@@ -27,49 +75,125 @@
         <button class="btn btn-success">Another Thing!</button>
     </section>
 
+    <!-- ========== Jumbotron End ========== -->
+
+
+
+    <!-- ========= Events Section Start ==========-->
+
     <section>
+        
         <div class="container">
+            
             <div class="row">
+
                 <div class="col-lg-4 col-xl-4 mb-4">
-                    <div class="card">
-                        <img src="https://images.unsplash.com/photo-1569271836752-ed9351b75521?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" class="card-img-top">
+                    <div class="card text-center">
+                        <img src="img/c_error.jpeg" alt="" class="card-img-top">
                         <div class="card-body">
-                            <h5 class="card-title">First Thing</h5>
-                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora esse illum quis officiis vero totam! A, nemo tempora alias quis, rerum placeat eveniet qui assumenda, quidem explicabo nulla laboriosam veniam!</p>
-                            <a href="#" class="btn btn-outline-success btn-small">Download</a>
-                            <a href="#" class="btn btn-outline-danger btn-small"><i class="far fa-heart"></i></a>
+                            <a href="https://forms.gle/3hMVv33PwRgWQT9cA" target="_blank" class="btn btn-outline-success btn-small">Participate</a>
+                            <a href="#" class="btn btn-outline-danger btn-small">Learn More</a>
+                            <!-- <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+                                Popover on bottom
+                            </button> -->
                         </div>
                     </div>
                 </div>
+               
                 <div class="col-lg-4 col-xl-4 mb-4">
-                    <div class="card">
-                        <img src="https://images.unsplash.com/photo-1569448829586-2e4995a3d607?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" class="card-img-top">
+                    <div class="card text-center">
+                        <img src="img/crkt.jpeg" alt="" class="card-img-top">
                         <div class="card-body">
-                            <h5 class="card-title">First Thing</h5>
-                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora esse illum quis officiis vero totam! A, nemo tempora alias quis, rerum placeat eveniet qui assumenda, quidem explicabo nulla laboriosam veniam!</p>
-                            <a href="#" class="btn btn-outline-success btn-small">Download</a>
-                            <a href="#" class="btn btn-outline-danger btn-small"><i class="far fa-heart"></i></a>
+                            <a href="https://bit.ly/2yEfS6m" target="_blank" class="btn btn-outline-success btn-small">Participate</a>
+                            <a href="#" class="btn btn-outline-danger btn-small">Learn More</a>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-lg-4 col-xl-4 mb-4">
-                    <div class="card">
-                        <img src="https://images.unsplash.com/photo-1567712200021-20639e891b7a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" class="card-img-top">
+                    <div class="card text-center">
+                        <img src="img/iot.jpeg" alt="" class="card-img-top">
                         <div class="card-body">
-                            <h5 class="card-title">First Thing</h5>
-                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora esse illum quis officiis vero totam! A, nemo tempora alias quis, rerum placeat eveniet qui assumenda, quidem explicabo nulla laboriosam veniam!</p>
-                            <a href="#" class="btn btn-outline-success btn-small">Download</a>
-                            <a href="#" class="btn btn-outline-danger btn-small"><i class="far fa-heart"></i></a>
+                            <a href="https://forms.gle/VcJ6a8kE8Qw3zGzd6" target="_blank" class="btn btn-outline-success btn-small">Participate</a>
+                            <a href="#" class="btn btn-outline-danger btn-small">Learn More</a>
                         </div>
                     </div>
                 </div>
+
             </div>
+
+            <div class="row">
+
+                <div class="col-lg-4 col-xl-4 mb-4">
+                    <div class="card text-center">
+                        <img src="img/lens.jpeg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <a href="#" class="btn btn-outline-success btn-small">Participate</a>
+                            <a href="#" class="btn btn-outline-danger btn-small">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="col-lg-4 col-xl-4 mb-4">
+                    <div class="card text-center">
+                        <img src="img/meme.jpeg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <a href="#" class="btn btn-outline-success btn-small">Participate</a>
+                            <a href="#" class="btn btn-outline-danger btn-small">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-xl-4 mb-4">
+                    <div class="card text-center">
+                        <img src="img/photo.jpeg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <a href="#" class="btn btn-outline-success btn-small">Participate</a>
+                            <a href="#" class="btn btn-outline-danger btn-small">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row justify-content-around">
+
+                <div class="col-lg-4 col-xl-4 mb-4">
+                    <div class="card text-center">
+                        <img src="img/kuch.jpeg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <a href="https://forms.gle/zQFTBci6eoWUKDk69" target="_blank" class="btn btn-outline-success btn-small">Participate</a>
+                            <a href="#" class="btn btn-outline-danger btn-small">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="col-lg-4 col-xl-4 mb-4">
+                    <div class="card text-center">
+                        <img src="img/pose.jpeg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <a href="#" class="btn btn-outline-success btn-small">Participate</a>
+                            <a href="#" class="btn btn-outline-danger btn-small">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
         </div>
+
     </section>
+
+     <!-- ========= Events Section End ==========-->
     
     
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"><script>
+    <!-- Events javaScript-->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="events-java.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
 </body>
+
 </html>
