@@ -1,6 +1,4 @@
-.jumbotron {
-    background: url("img/logo.jpeg") center center / cover no-repeat;
-}
+
 
 /* The Modal (background) */
 .modal {
@@ -18,11 +16,13 @@
 
 /* Modal Content/Box */
 .modal-content {
-  background-color: #fefefe;
+  background-color: rgba(17, 51, 186, 0.7);
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
   border: 1px solid #888;
   width: 80%; /* Could be more or less, depending on screen size */
+  height: 70%;
+  color: aliceblue;
 }
 
 /* The Close Button */
@@ -39,3 +39,21 @@
   text-decoration: none;
   cursor: pointer;
 }
+
+#about-link {
+  color: gray;
+}
+hr.style-five {
+  border: 0;
+  height: 0; /* Firefox... */
+  box-shadow: 0 0 10px 1px black;
+}
+hr.style-five:after {  /* Not really supposed to work, but does */
+  content: "\00a0";  /* Prevent margin collapse */
+}
+
+#about {
+  color: rgba(128,128,128, 0.6);
+  font-family: 'Orbitron', sans-serif;
+}
+

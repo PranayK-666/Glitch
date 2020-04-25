@@ -9,6 +9,8 @@
 
    <!-- events-style CSS -->
    <link rel="stylesheet" href="events-style.css">
+
+   <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
    
    <title>Glitch '20 - Events</title>
    <link rel = "icon" href ="img/logo.jpeg" type = "image/x-icon"> 
@@ -19,9 +21,10 @@
 
 <body>
     
+  
     <!-- ========== NavBar Start ========== -->
 
-    <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <a class="navbar-brand" href="#">
             <img src="img/logo.jpeg" class="rounded-circle" width="30" height="30" alt="">
           </a>
@@ -36,35 +39,26 @@
               <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
             </li>
             
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <li class="nav-item">
+              <a class="nav-link" href="#events">
                 Events
               </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Compiler Error</a>
-                <a class="dropdown-item" href="#">Circuit Designing</a>
-                <a class="dropdown-item" href="#">IOT Times</a>
-                <a class="dropdown-item" href="#">It's Lensational</a>
-                <a class="dropdown-item" href="#">Meme Challenge</a>
-                <a class="dropdown-item" href="#">Photo Edito</a>
-                <a class="dropdown-item" href="#">Kuch toh Corona</a>
-                <a class="dropdown-item" href="#">T-Pose</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
+              
             </li>
             
           </ul>
           
-
+          <span>
+            <a href="#about" class="nav-link" id="about-link"> About us</a>
+          </span>
 
         <a href="https://www.facebook.com/113482887002390/posts/113839643633381/?sfnsn=wiwspmo&extid=jUWd4hzpE3E2i01E" target="_blank">
             <i class="fab fa-facebook"></i>
         </a>
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+           
      
         </div>
-      </nav> -->
+      </nav>
 
     <!-- ========== NavBar End ========== -->
 
@@ -72,12 +66,25 @@
 
     <!-- ========== Jumbotron Start ========== -->
 
-    <section class="jumbotron text-center" id="home">
+    <section id="home"> 
+        <div class="container-fluid p-0 m-0">
+            <div class="jumbotron jumbotron-fluid">
+                <img src="img/logo-crop.jpeg" alt="">
+                <div class="py-2 px-5 mt-3 text-center">
+                    
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem ratione alias dicta veritatis incidunt molestias rem deserunt. Corrupti facilis obcaecati debitis, amet suscipit voluptatibus, nobis laborum sed quas error repellendus optio recusandae, delectus fugiat exercitationem tenetur nam voluptatem unde. Corrupti similique aut, totam facere cupiditate, molestiae repudiandae delectus accusamus distinctio non, ut ipsum dolore hic a illo. Neque in laudantium, commodi et adipisci, illo ratione corrupti possimus nihil officiis exercitationem laboriosam debitis repellendus natus a culpa? Esse voluptas vel, veniam quo reprehenderit explicabo dicta recusandae ut aut commodi ab numquam magni. Sunt reprehenderit alias quod soluta ex quidem consequatur laudantium!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- <section class="jumbotron text-center" id="home">
+        <img src="img/logo.jpeg" class="img-responsive" height="auto" alt="">
         <h1 class="display-3"> </h1>
         <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit neque necessitatibus numquam?</p>
         <button class="btn btn-primary">Do Something!</button>
         <button class="btn btn-success">Another Thing!</button>
-    </section>
+    </section> -->
 
     <!-- ========== Jumbotron End ========== -->
 
@@ -85,7 +92,7 @@
 
     <!-- ========= Events Section Start ==========-->
 
-    <section>
+    <section id="#events"> 
         
         <div class="container">
             
@@ -297,10 +304,31 @@
 
     </section>
 
-     <!-- ========= Events Section End ==========-->
+     <!-- ========= Events Section End ========== -->
+
+
+     <!-- ========== About Section Start ========== -->
+
+     <section id="about">
+        <footer class="bg-dark text-center">
+            <div>
+                <h3>About Us</h3>
+                <p class="mx-3">IEEE DTU Student Branch , under the aegis of IEEE, is the oldest student branch in Delhi Section with an illustrious history of over three decades.
+
+                    Under the invaluable guidance of Dr. J. Panda, IEEE DTU has emerged as one of the most active and innovative student branches in India. IEEE DTU organizes a plethora of events around the year such as TECHWEEK, REPERTOIRE and the annual technical festival TROIKA to instil a scientific temperament in students and to cater to the needs of their inquisitive nature .IEEE DTU is also renowned for its publications- ECHO, a magazine for freshers, IOTA, the annual technical magazine, TRIGGER, the TROIKA souvenir, and The Troika Times.</p>
+            </div>
+            <div class="px-5">
+                <hr class="style-five">
+                <p class="mb-0">Made with &#10084 by IEEE DTU  <a href="https://www.facebook.com/ieeedtu/" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a></p>
+            </div>
+        </footer>
+     </section>
     
     
     <!-- Events javaScript-->
+   
     <script src="events-java.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
