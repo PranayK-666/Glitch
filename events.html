@@ -2,9 +2,9 @@
 <html>
 <head>
    
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"> 
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+   
    
 
    <!-- events-style CSS -->
@@ -13,13 +13,15 @@
    <title>Glitch '20 - Events</title>
    <link rel = "icon" href ="img/logo.jpeg" type = "image/x-icon"> 
 
+   
+
 </head>
 
 <body>
     
     <!-- ========== NavBar Start ========== -->
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <a class="navbar-brand" href="#">
             <img src="img/logo.jpeg" class="rounded-circle" width="30" height="30" alt="">
           </a>
@@ -31,7 +33,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
             </li>
             
             <li class="nav-item dropdown">
@@ -47,20 +49,22 @@
                 <a class="dropdown-item" href="#">Photo Edito</a>
                 <a class="dropdown-item" href="#">Kuch toh Corona</a>
                 <a class="dropdown-item" href="#">T-Pose</a>
-                <!-- <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a> -->
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
               </div>
             </li>
             
           </ul>
           
+
+
         <a href="https://www.facebook.com/113482887002390/posts/113839643633381/?sfnsn=wiwspmo&extid=jUWd4hzpE3E2i01E" target="_blank">
             <i class="fab fa-facebook"></i>
         </a>
-            <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
      
         </div>
-      </nav>
+      </nav> -->
 
     <!-- ========== NavBar End ========== -->
 
@@ -68,7 +72,7 @@
 
     <!-- ========== Jumbotron Start ========== -->
 
-    <section class="jumbotron text-center">
+    <section class="jumbotron text-center" id="home">
         <h1 class="display-3"> </h1>
         <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit neque necessitatibus numquam?</p>
         <button class="btn btn-primary">Do Something!</button>
@@ -92,10 +96,33 @@
                         <img src="img/c_error.jpeg" alt="" class="card-img-top">
                         <div class="card-body">
                             <a href="https://forms.gle/3hMVv33PwRgWQT9cA" target="_blank" class="btn btn-outline-success btn-small">Participate</a>
-                            <a href="#" class="btn btn-outline-danger btn-small">Learn More</a>
-                            <!-- <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
-                                Popover on bottom
-                            </button> -->
+                            <a href="#" class="btn btn-outline-danger btn-small" id="btn1">Learn More</a>
+                            <!-- The Modal -->
+                            <div id="modal1" class="modal">
+
+                                <!-- Modal content -->
+                                <div class="modal-content">
+                                    <span class="close1">&times;</span>
+                                    <h4>Compiler Error</h4>
+                                    <p>Charge up your machines, caffeine up your brains, plug into Spotify and get coding!
+                                        IEEE DTU presents to you, Compiler Error!
+                                        Comment out your quarantine boredom with 3 exhilarating rounds of programming.
+                                        So what are you waiting for? Ready your Codeforces handles and get compiling!</p>
+                                    <ul>
+                                        <li>
+                                            Contest Type: Competitive coding contest based on algorithms, data structures and problem solving.
+                                        </li>
+                                        <li>
+                                            Platform: This contest is hosted by Codeforces
+                                        </li>
+                                        <li>
+                                            Benefits: Participation certificates to all and Certificate of Excellence to the top performers!
+                                        </li>
+                                    </ul>
+                                    
+                                </div>
+  
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -105,7 +132,18 @@
                         <img src="img/crkt.jpeg" alt="" class="card-img-top">
                         <div class="card-body">
                             <a href="https://bit.ly/2yEfS6m" target="_blank" class="btn btn-outline-success btn-small">Participate</a>
-                            <a href="#" class="btn btn-outline-danger btn-small">Learn More</a>
+                            <a href="#" class="btn btn-outline-danger btn-small" id="btn2">Learn More</a>
+                            <!-- The Modal -->
+                            <div id="modal2" class="modal">
+
+                                <!-- Modal content -->
+                                <div class="modal-content">
+                                    <span class="close2">&times;</span>
+                                    <h4>Circuit Designing</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, ut!</p>
+                                </div>
+  
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -115,21 +153,43 @@
                         <img src="img/iot.jpeg" alt="" class="card-img-top">
                         <div class="card-body">
                             <a href="https://forms.gle/VcJ6a8kE8Qw3zGzd6" target="_blank" class="btn btn-outline-success btn-small">Participate</a>
-                            <a href="#" class="btn btn-outline-danger btn-small">Learn More</a>
+                            <a href="#" class="btn btn-outline-danger btn-small" id="btn3">Learn More</a>
+                            <!-- The Modal -->
+                            <div id="modal3" class="modal">
+
+                                <!-- Modal content -->
+                                <div class="modal-content">
+                                    <span class="close3">&times;</span>
+                                    <h4>IOT Times</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, ut!</p>
+                                </div>
+  
+                            </div>
                         </div>
                     </div>
                 </div>
 
             </div>
 
-            <div class="row">
+             <div class="row">
 
                 <div class="col-lg-4 col-xl-4 mb-4">
                     <div class="card text-center">
                         <img src="img/lens.jpeg" alt="" class="card-img-top">
                         <div class="card-body">
                             <a href="#" class="btn btn-outline-success btn-small">Participate</a>
-                            <a href="#" class="btn btn-outline-danger btn-small">Learn More</a>
+                            <a href="#" class="btn btn-outline-danger btn-small" id="btn4">Learn More</a>
+                            <!-- The Modal -->
+                            <div id="modal4" class="modal">
+
+                                <!-- Modal content -->
+                                <div class="modal-content">
+                                    <span class="close4">&times;</span>
+                                    <h4>It's Lensational</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, ut!</p>
+                                </div>
+  
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -139,7 +199,18 @@
                         <img src="img/meme.jpeg" alt="" class="card-img-top">
                         <div class="card-body">
                             <a href="#" class="btn btn-outline-success btn-small">Participate</a>
-                            <a href="#" class="btn btn-outline-danger btn-small">Learn More</a>
+                            <a href="#" class="btn btn-outline-danger btn-small" id="btn5">Learn More</a>
+                            <!-- The Modal -->
+                            <div id="modal5" class="modal">
+
+                                <!-- Modal content -->
+                                <div class="modal-content">
+                                    <span class="close5">&times;</span>
+                                    <h4>Meme Challenge</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, ut!</p>
+                                </div>
+  
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -149,35 +220,78 @@
                         <img src="img/photo.jpeg" alt="" class="card-img-top">
                         <div class="card-body">
                             <a href="#" class="btn btn-outline-success btn-small">Participate</a>
-                            <a href="#" class="btn btn-outline-danger btn-small">Learn More</a>
+                            <a href="#" class="btn btn-outline-danger btn-small" id="btn6">Learn More</a>
+                            <!-- The Modal -->
+                            <div id="modal6" class="modal">
+
+                                <!-- Modal content -->
+                                <div class="modal-content">
+                                    <span class="close6">&times;</span>
+                                    <h4>Pho-Edit</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, ut!</p>
+                                </div>
+  
+                            </div>
                         </div>
                     </div>
                 </div>
 
-            </div>
-            <div class="row justify-content-around">
+            </div> 
 
+        
+
+           
+
+            <div class="row justify-content-around">
+               
                 <div class="col-lg-4 col-xl-4 mb-4">
                     <div class="card text-center">
                         <img src="img/kuch.jpeg" alt="" class="card-img-top">
                         <div class="card-body">
-                            <a href="https://forms.gle/zQFTBci6eoWUKDk69" target="_blank" class="btn btn-outline-success btn-small">Participate</a>
-                            <a href="#" class="btn btn-outline-danger btn-small">Learn More</a>
+                            <a href="#" class="btn btn-outline-success btn-small">Participate</a>
+                            <a href="#" class="btn btn-outline-danger btn-small" id="btn7">Learn More</a>
+                            <!-- The Modal -->
+                            <div id="modal7" class="modal">
+
+                                <!-- Modal content -->
+                                <div class="modal-content">
+                                    <span class="close7">&times;</span>
+                                    <h4>Kuch toh Corona</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, ut!</p>
+                                </div>
+  
+                            </div>
                         </div>
                     </div>
                 </div>
-               
+
                 <div class="col-lg-4 col-xl-4 mb-4">
                     <div class="card text-center">
                         <img src="img/pose.jpeg" alt="" class="card-img-top">
                         <div class="card-body">
                             <a href="#" class="btn btn-outline-success btn-small">Participate</a>
-                            <a href="#" class="btn btn-outline-danger btn-small">Learn More</a>
+                            <a href="#" class="btn btn-outline-danger btn-small" id="btn8">Learn More</a>
+                            <!-- The Modal -->
+                            <div id="modal8" class="modal">
+
+                                <!-- Modal content -->
+                                <div class="modal-content">
+                                    <span class="close8">&times;</span>
+                                    <h4>T-Pose</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, ut!</p>
+                                </div>
+  
+                            </div>
                         </div>
                     </div>
                 </div>
+                
 
             </div>
+
+            
+
+            
             
         </div>
 
@@ -187,7 +301,6 @@
     
     
     <!-- Events javaScript-->
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="events-java.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
