@@ -144,11 +144,11 @@ body {
   font-size: larger;
 }
 
-#link{
+.link{
   color: cyan;
 }
 
-#link:hover{
+.link:hover{
   color: blue;
 }
 
