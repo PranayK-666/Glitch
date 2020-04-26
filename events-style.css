@@ -59,21 +59,33 @@ hr.style-five:after {  /* Not really supposed to work, but does */
 
 @keyframes bgcolor {
   0% {
-      background-color: #ff0000
+      background-color: #FF0000
   }
 
-  50% {
-      background-color: #000000
+  20% {
+      background-color: #FFC000
+  }
+
+  40% {
+      background-color: #FFFC00
+  }
+
+  60% {
+    background-color: #00FF00
+}
+
+  80% {
+      background-color: #00FFFF
   }
 
   100% {
-      background-color: #24f7f6
+      background-color: #FF00FF
   }
 }
 
 body {
-  -webkit-animation: bgcolor 20s infinite;
-  animation: bgcolor 10s infinite;
+  -webkit-animation: bgcolor 15s infinite;
+  animation: bgcolor 15s infinite;
   -webkit-animation-direction: alternate;
   animation-direction: alternate;
   font-family: 'Fondamento', cursive;
