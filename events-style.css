@@ -16,18 +16,19 @@
 
 /* Modal Content/Box */
 .modal-content {
-  background-color: rgba(17, 51, 186, 0.7);
+  background-color: rgba(49, 72, 163, 0.9);
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
   border: 1px solid #888;
   width: 80%; /* Could be more or less, depending on screen size */
   height: 70%;
   color: aliceblue;
+  font-family: 'Risque', cursive;
 }
 
 /* The Close Button */
 .close {
-  color: #aaa;
+  color: black;
   float: right;
   font-size: 28px;
   font-weight: bold;
@@ -35,7 +36,7 @@
 
 .close:hover,
 .close:focus {
-  color: black;
+  color: red;
   text-decoration: none;
   cursor: pointer;
 }
