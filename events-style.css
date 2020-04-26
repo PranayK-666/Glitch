@@ -57,29 +57,55 @@ hr.style-five:after {  /* Not really supposed to work, but does */
   font-family: 'Montserrat Alternates', sans-serif;
 }
 
+/* Dynamic Background*/
 @keyframes bgcolor {
   0% {
-      background-color: #FF0000
+      background: url("img/backg-1.jpg") no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      
   }
 
   20% {
-      background-color: #FFC000
+      background: url("img/back-2.jpg") no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
   }
 
   40% {
-      background-color: #FFFC00
+    background: url("img/back-3.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 
   60% {
-    background-color: #00FF00
+    background: url("img/backg-4.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
   80% {
-      background-color: #00FFFF
+    background: url("img/backg-5.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 
   100% {
-      background-color: #FF00FF
+    background: url("img/back-6.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 }
 
