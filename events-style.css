@@ -61,7 +61,7 @@ hr.style-five:after {  /* Not really supposed to work, but does */
 /* Dynamic Background*/
 @keyframes bgcolor {
   0% {
-      background: url("img/backg-1.jpg") no-repeat center center fixed;
+      background: url("img/bg1.jpg") no-repeat center center fixed;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
@@ -69,32 +69,48 @@ hr.style-five:after {  /* Not really supposed to work, but does */
       
   }
 
-  20% {
-      background: url("img/back-2.jpg") no-repeat center center fixed;
+  15% {
+      background: url("img/bg2.jpg") no-repeat center center fixed;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
   }
 
-  40% {
-    background: url("img/back-3.jpg") no-repeat center center fixed;
+  30% {
+    background: url("img/bg3.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
   }
 
-  60% {
-    background: url("img/backg-4.jpg") no-repeat center center fixed;
+  45% {
+    background: url("img/bg4.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 
-  80% {
-    background: url("img/backg-5.jpg") no-repeat center center fixed;
+  60% {
+    background: url("img/bg5.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  75% {
+    background: url("img/bg6.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  85% {
+    background: url("img/bg7.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -102,12 +118,13 @@ hr.style-five:after {  /* Not really supposed to work, but does */
   }
 
   100% {
-    background: url("img/back-6.jpg") no-repeat center center fixed;
+    background: url("img/bg8.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
   }
+
 }
 
 body {
