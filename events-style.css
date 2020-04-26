@@ -101,7 +101,7 @@ hr.style-five:after {  /* Not really supposed to work, but does */
     background-size: cover;
 }
 
-  /* 60% {
+  80% {
     background: url("img/bg5.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -109,24 +109,8 @@ hr.style-five:after {  /* Not really supposed to work, but does */
     background-size: cover;
   }
 
-  75% {
-    background: url("img/bg6.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  } */
-
-  80% {
-    background: url("img/bg7.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-
   100% {
-    background: url("img/bg8.jpg") no-repeat center center fixed;
+    background: url("img/bg6.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
